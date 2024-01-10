@@ -41,7 +41,6 @@ body {
   width: 100%;
   background: var(--bg-black-900);
   color: var(--text-black-900);
-  
 }
 
 ::-moz-selection {
@@ -151,7 +150,16 @@ section {
   height: 100vh;
 }
 
+.home {
+  background-color: rgba(237, 237, 237, 0.008);
+}
+
 header h1 {
   font-size: 133px;
   color: var(--skin-color);
+}
+
+.home h1 {
+  width: 40%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
